@@ -23,4 +23,5 @@ for step in range(2001):
     
     if step % 100 == 0:
         print(step, cost_val, W_val, b_val)
-#     print(sess.run(hypothesis, feed_dict={X:[1,5,3,5]}))
+
+print(sess.run(hypothesis, feed_dict={X:[1,5,3,5]}))
